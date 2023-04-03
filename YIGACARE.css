@@ -1,0 +1,65 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+nav {
+    color: white;
+    background-color: rgb(129, 18, 18);
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid rgba(129, 122, 122, 0.13); 
+}
+body nav label {
+    color: black;
+    font-size: xx-large;
+    font: bolder;
+}
+nav ul{
+        margin-left: 50%;
+}
+nav ul li {
+  float: inline-start;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+nav ul a {
+    color: white;
+}
+.super {
+    margin-top: 6rem;
+    text-align: center;
+}
+.super h1 {
+    font-size: 50px;
+    font-weight: 800;
+    letter-spacing: -3px;
+}
+.super p {
+    font-size: 20px;
+  color: rgba(0, 0, 0, 0.508);
+  width: 400px;
+  margin: auto;
+  margin-top: 2rem;
+}
+footer {
+    color: white;
+    background-color: rgb(129, 18, 18);
+    padding: 16px 18px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.sub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 70px;
+}
+a{
+
+}
+a:hover{
+    color: blanchedalmond;
+}

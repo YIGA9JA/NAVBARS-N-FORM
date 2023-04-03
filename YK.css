@@ -1,0 +1,63 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    nav{
+        background: rgb(133, 1, 1);
+       height: 80px;
+    }
+    label.logo
+    {color: rgb(150, 235, 13);
+        font-size: 35px;
+        padding: 0 100px;
+        font-weight: bold;
+        line-height: 80px;
+    }
+ nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+ }
+ nav ul li button{
+    background-color: rgb(12, 223, 135);
+    color: rgb(245, 230, 17);
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px;
+    border-radius: 3px;
+    font-weight: bold;
+ }
+ h1{
+    color: brown;
+    margin: 10px;
+ }
+ p{
+    color: blue;
+ }
+ span{
+    color: rgb(250, 12, 12);
+ }
+ em{
+    color: rgb(16, 250, 28);
+ }
+ h2{
+    color: brown;
+ }
+ button{
+    color: blueviolet;
+    box-sizing: 60px;
+    background-color: aqua;
+    font-weight: bold;
+    line-height: 17PX;
+    font-size: 16px;
+ }

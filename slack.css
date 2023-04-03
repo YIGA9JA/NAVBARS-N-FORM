@@ -1,0 +1,40 @@
+*{
+margin: 5px;
+padding: 2px;
+background-color: #5C2D5D;
+color: #ffffff81;
+list-style: none;
+
+}
+nav{
+height: 80px;
+animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+label.logo{
+    font-size: 35px;
+        padding: 0 100px;
+        font-weight: bold;
+        line-height: 80px;
+        color: #e693e7;
+     
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+ }
+ nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 25 40px;
+}
+span{
+align-self: right;
+margin-right: 5px;
+}
+li button{
+    color: #5C2D5D;
+  border-color: #e693e7;
+  background-color: #ffffff;
+}
+
+

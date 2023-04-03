@@ -1,0 +1,71 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+html {
+    background: url(bg4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  body label {
+    float: right;
+    width: 12%;
+    margin-top: 4%;
+   font-size: xx-large;
+   color: brown;
+   font-family: fantasy;
+   font-weight: bolder;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    transition: 0.5s;
+  }
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #0a0dd4;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    color: #fa0909;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  h2 {
+    color: blue;
+  }
+div form { 
+    padding: 5px;
+    margin-left: 400px;
+margin-top: 200px;
+
+  }
+  form input{
+   text-transform: capitalize;
+  }
+  form button {
+    color: white;
+    background-color: blue;
+  }
+  form :placeholder-shown {
+    color: black;
+  }
